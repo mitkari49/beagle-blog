@@ -1,0 +1,51 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+#intro {
+    border: 2px solid #000; 
+    padding: 20px; 
+    margin: 20px; 
+    border-radius: 10px;
+    background-color: #fff; 
+}
+#intro, #photo, #trivia {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#intro p {
+    font-size: 18px;
+    text-align: center;
+}
+
+#image img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+#image p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#trivia ol {
+    padding-left: 20px;
+}
+
+#trivia li {
+    margin: 10px 0;
+}
